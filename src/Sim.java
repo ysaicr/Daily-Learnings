@@ -8,15 +8,15 @@ public class Sim {
     public static void main(String[] args){
         Sim1 a=new Sim1();
         a.name="Airtel";
-        a.Id=01;
+        a.Id=1;
         a.server= "4G";
         Sim1 b = new Sim1();
         b.name="jio";
-        b.Id=02;
+        b.Id=2;
         b.server="3G";
         Sim1 c= new Sim1();
         c.name="bsnl";
-        c.Id=03;
+        c.Id=3;
         c.server="2G";
         System.out.println(a.name);
         System.out.println(a.Id);
