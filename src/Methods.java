@@ -1,22 +1,33 @@
    class Methods{
     public static void main(String[] args) {
-        String name = "Keys";
-        System.out.println(name);
-        Addition(); /// method calling
-        subtraction();
-        multiplication();
+         int a=6,b=3;
+       //// Addition(); /// method calling
+       ///// subtraction();
+       ///// multiplication();
+        ///  division();
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+
     }
-        public  static void Addition() ///  method defining
+          public static void Addition()
         {
-            System.out.println("hi");
+           ////  int a=2,b=5;
+           ///// System.out.println(a+b);
+
+
         }
         public static void subtraction()
         {
-            System.out.println("hello");
+          /// int a=5,b=8;
+            ///// System.out.println(a-b);
         }
         public static void multiplication()
         {
-            System.out.println("welcome");
+             /// int a=3,b=4;   public  static void Addition() ///  method defining
+             ///
+             ////// System.out.println(a*b);
         }
 
    }
