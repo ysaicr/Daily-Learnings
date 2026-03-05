@@ -11,6 +11,6 @@ class With1{
     public static void main(String args[]){
         This o= new This();
         o.sayHello("Sai","sai");
-        System.out.println("name" +"name1");
+        System.out.println(o.name +" "+ o.name1);
     }
 }
